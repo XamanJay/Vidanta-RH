@@ -3,7 +3,7 @@ SAPCII VIDANTA RIVIERA MAYA Administration System of the Internal Career Plan an
 
 Human Resources, Training and Development Department // Recursos Humanos, Departamento de Entrenamiento y Desarrollo
 
-▓▓▓▓▓▓▓▓▓▓▓ Release in 2018 Vesion 1.0 {Deployed with{ PHP, HTML, CSS, Bootstrap, MySQL }} 😎 ▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓ Release in 2018 Version 1.0 {Deployed with{ PHP, HTML, CSS, Bootstrap, MySQL , XAMPP }} 😎 ▓▓▓▓
 
 ![image](https://user-images.githubusercontent.com/47259829/152851450-b7eccaa9-6d72-447f-973e-cd3b25829472.png)
 
