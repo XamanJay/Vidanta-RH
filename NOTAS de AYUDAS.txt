@@ -1,0 +1,61 @@
+include 'Includes\PCI_EncabezadoConecta.php';
+
+PCI_PaginaenFondoVidanta.php
+
+topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" background="ImagenesVidanta/LOGOLOCO03(1000x400)(SinFondo_10opacidad).png"
+
+
+
+
+CREATE VIEW Vista_pciddatospersonales_pcicstatus AS
+		
+		
+		20955   <----Numero de colaborador
+
+
+		
+<a href="reservacion_edit.php?rs=<?php echo $reservacancelar; ?>"><img src="img/editar.png" title="Editar" height="15px" width="15px"></a>
+
+Como se ponen acentos en los alerts de java script???
+
+
+VISTA_Bitacora_tmp_PCIdIdiomas_PCIdDatosPersonales_PCIdUsuarios
+
+25445
+
+
+
+ALTER ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` 
+SQL SECURITY DEFINER VIEW `vista_bitacora_tmp_pcididiomas_pciddatospersonales_pcidusuarios` AS 
+select `pcididiomas`.`Id_PCIdIdiomas` AS `Id_PCIdIdiomas`,
+`pcididiomas`.`PCIdIdiomas` AS `PCIdIdiomas`,
+`pciddatospersonales`.`Id_PCIdDatosPersonales` AS `Id_PCIdDatosPersonales`,
+`pciddatospersonales`.`PCIdDatosPersonales` AS `PCIdDatosPersonales`,
+`pcidusuarios`.`Id_PCIdUsuarios` AS `Id_PCIdUsuarios`,
+`pcidusuarios`.`PCIdUsuarios` AS `PCIdUsuarios`,
+`pcididiomas`.`Id_PCIcIdiomas` AS `Id_PCIcIdiomas`,
+`pcididiomas`.`Observaciones` AS `Observaciones`,
+`pcididiomas`.`FechayHora` AS `FechayHora`,
+`pcididiomas`.`IP_User` AS `IP_User`,
+`pcididiomas`.`Activo` AS `Activo`,
+`pcididiomas`.`Operacion` AS `Operacion`,
+`pcidusuarios`.`Usuario` AS `Usuario`,
+`pcidusuarios`.`Nombre_Usuario` AS `Nombre_Usuario`,
+`pcidusuarios`.`email` AS `email`,
+`pcidusuarios`.`Extension` AS `Extension`,
+`pciddatospersonales`.`ApellidoPaterno` AS `ApellidoPaterno`,
+`pciddatospersonales`.`ApellidoMaterno` AS `ApellidoMaterno`,
+`pciddatospersonales`.`Nombres` AS `Nombres`,
+`pciddatospersonales`.`NumeroColaborador` AS `NumeroColaborador`
+from ((`pcididiomas` join `pcidusuarios` on((`pcididiomas`.`Id_PCIdUsuarios` = `pcidusuarios`.`Id_PCIdUsuarios`))) join `pciddatospersonales` on((`pcididiomas`.`Id_PCIdDatosPersonales` = `pciddatospersonales`.`Id_PCIdDatosPersonales`)));
+
+
+
+
+
+
+
+
+
+
+width="<?php echo $ResultSetTotal;   ?>"

@@ -1,0 +1,107 @@
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE>..: SAPCII :.. Sistema de Administraci&oacute;n del Plan de Carrera Interno e Indicadores. Vidanta </TITLE>
+<meta name="description" content="Discover your happiness through the extraordinary world of Vidanta. Vidanta is a collection of luxury resorts, located in seven stunning destinations along the most beautiful beaches in Mexico.">
+<meta name="keywords" content="Vidanta, vidanta, VIDANTA">
+ <link rel="shortcut icon" href="images/ico/favicon.ico">
+ </HEAD>
+ 
+ <BODY BACKGROUND = "images/imagen_login.jpg" BGPROPERTIES="fixed" TOPMARGIN="0" LEFTMARGIN="0" > 
+ 
+ <FORM METHOD="Post" ACTION="PCI_CargaGlobal.php" NAME= "FormAltas">
+ 
+
+    <TABLE border="0" align="center"  >
+		 <TR>
+		 <TD colspan="2" valign="top" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="ImagenesVidanta/LOGOLOCO03(1000x400_transparente).gif" width="100" height="100" alt="Vidanta"> </TR>
+		 
+		 
+		 <TR>
+		 <TD colspan="2" align="center"><B> <font color="#ffffff" face="Verdana, Arial, Helvetica, sans-serif ">VIDANTA RIVIERA MAYA</font> </B> </TD> </TR>
+		 
+		 <TR>
+		 <TD colspan="2" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B> <font color="#ffffff" face="Verdana, Arial, Helvetica, sans-serif"><em>Sistema de Administraci&oacute;n del Plan de Carrera  Interno e Indicadores</em>&nbsp;&nbsp;&nbsp;&nbsp;</font> </B>&nbsp;&nbsp;&nbsp;         </TD>
+		 </TR>
+		 
+		 </TR>		 <TR> <TD colspan="2"> <HR>&nbsp; </TD>		 </TR>
+		 
+		 
+		 <TR>
+		 <TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B> <font color="#ffffff" face="Verdana, Arial, Helvetica, sans-serif">U s u a r i o :&nbsp;&nbsp;&nbsp;&nbsp;</font> </B> &nbsp;&nbsp;&nbsp; </TD>
+		 <TD> <INPUT TYPE="TEXT" NAME="Usuario" SIZE="50"  MAXLENGTH="50">   </TD>
+		 </TR>
+		 <TR>
+		 <TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B> <font color="#ffffff" face="Verdana, Arial, Helvetica, sans-serif">P a s s w o r d :</font> </B> &nbsp;&nbsp; </TD>
+		 <TD> <INPUT TYPE="PASSWORD" NAME="Passswword" SIZE="50"  MAXLENGTH="50">  </TD>
+		 </TR>
+		 <TR>
+		 <TD> </TD>
+		 <TD align="justify"><BR><INPUT TYPE="button" VALUE="..::::: I N G R E S A R :::::.." NAME="B1" onClick="ValidaCampos()">  </TD>
+		 </TR>
+		 <TR> <TD>&nbsp; </TD>
+		 </TR>
+		 </TABLE>
+    
+
+    
+    
+
+</FORM></BODY></HTML>
+
+
+
+
+<script Language="JavaScript"> 
+function ValidaCampos()
+{
+  
+     /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Jaissiel VI <>}}}}}}*>=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+        var jvi_texto_correcto = /[\d\'\"\(\)\%\$\!\#\&\<\>\+\*\=\?\¿\¡\[\]\{\}\/\@]/
+		var jvi_numero_correcto = /[\D\'\"\(\)\%\$\!\#\&\<\>\+\*\=\?\¿\¡\[\]\{\}\/\@]/
+		var jvi_textoynumero_correcto = /[\'\"\(\)\%\$\!\#\&\<\>\+\*\=\?\¿\¡\[\]\{\}\/\@]/
+  
+  
+  if (FormAltas.Usuario.value  == "")
+  {
+       alert("El campo de Usuario esta vacío, verifique por favor");
+	   FormAltas.Usuario.focus();
+       return false;
+  }
+  
+  if(jvi_textoynumero_correcto.test(FormAltas.Usuario.value)) {
+       alert('Ha escrito un caracter no valido en el campo Usuario, verifique por favor.');
+	   FormAltas.Usuario.focus();
+       return false;    
+    }
+  
+  
+  
+  
+  
+  
+   if (FormAltas.Passswword.value  == "")
+  {
+       alert("El campo de Password esta vacío, verifique por favor");
+	   FormAltas.Passswword.focus();
+       return false;
+  } 
+   if(jvi_textoynumero_correcto.test(FormAltas.Passswword.value)) {
+       alert('Ha escrito un caracter no valido en el campo Password, verifique por favor.');
+	   FormAltas.Passswword.focus();
+       return false;    
+    }
+  
+//FormAltas.B1.disabled = true;  
+document.FormAltas.submit();	  
+   /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Jaissiel VI <>}}}}}}*>=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+}
+
+</script>
